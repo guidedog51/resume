@@ -1,0 +1,179 @@
+{
+  "socialmedia": {
+    "github": {"iconName": "github", "url": "https://github.com/michaelconner"}
+  , "twitter": {"iconName": "twitter", "url": "https://twitter.com/guidedog51"}
+  , "soundcloud": {"iconName": "soundcloud", "url": "https://soundcloud.com/Guidedog"}
+  , "linkedin": {"iconName": "linkedin", "url": "http://www.linkedin.com/mikeconner"}
+  }
+, "sections": {
+    "experience": {
+      "id": "experience"
+    , "title": "Professional Experience"
+    , "items": {
+        "wegodo.com": {
+          "id": "wegodo.com"
+        , "title": "<a href='http://wegodo.com' target= '_blank'>WeGoDo</a>"
+        , "place": "London, UK & San Francisco, CA"
+        , "subtitle": "Senior Full Stack Developer"
+        , "date": "November 2013–March 2015"
+        , "desc": "<ul><li>Developed WeGoDo Web Application and contributed to development of WeGoDo iOS mobile social media application</li><li>Did everything</li><li>Contributed to product and business development.</li><li>Worked on extending Joinin.com event and ticketing platforms.</li></ul>"
+        }
+      , "pointacross": {
+          "id": "pointacrosss"
+        , "title": "<a href='http://www.pointacross.com' target='_blank'>PointAcross</a>"
+        , "website": "http://www.pointacross.com"
+        , "place": "San Francisco, CA"
+        , "subtitle": "Senior Developer"
+        , "date": "July 2007 - October 2013"
+        , "desc": "<ul><li>Studied a novel 2-parameter family of kernel functins for data interpolation, under the direction of Dr. Greg Fasshauer, Professor of Applied Mathematics at the Illinois Institute of Technology, in the Research Experience for Undergraduates program.</li><li>Contributed to a code repository of numerical experiments in Matlab</li><li>Conducted theoretical investigations of closed forms for Green&#8217s functions associated with the 2-parameter family</li><li>Presented results at:<ul><li>The <a href='http://jointmathematicsmeetings.org/' target='_blank'>Joint Mathematics Meetings 2013 </a> in San Diego, CA </li><li>The <a href='http://www.ymc.osu.edu/' target='_blank'>Young Mathematicians Conference 2012 </a> at Ohio State University; our abstract was one of 55 accepted out of 110 submitted</li><li>Brown's 2013 Symposium for Undergraduates in the Mathematical Sciences</li></ul><li>Research funded by NSF grant DMS-1115392</li></ul>"
+        }
+      }
+    }
+  , "education": {
+      "id"   : "education"
+    , "title": "Education"
+    , "items": {
+        "brown": {
+          "id": "brown"
+        , "title": "<a href='http://brown.edu' target='_blank'>Brown University</a>"
+        , "website": "http://brown.edu"
+        , "place": "Providence, RI"
+        , "subtitle": "Sc.B. in Mathematics&#8212;Computer Science"
+        , "date": "May, 2013"
+        , "desc": "<span><strong>Selected Coursework: </strong></span><ul><li>Creating Modern Web Applications</li><li>Laboratory in Computational Cognitive Neuroscience</li><li>Consciousness</li><li>Artificial Intelligence</li><li>Design and Analysis of Algorithms</li><li>Combinatorial Topology</li><li>Neural Modeling Laboratory</li><li>Introduction to Neuroscience</li><li>Multiprocessor Synchronization</li><li>Cryptography</li><li>Programming with Data Structures and Algorithms</li><li>Models of Computation</li><li>Fundamental Problems of Geometry</li><li>Abstract Algebra</li><li>Linear Algebra<li>Cybersecurity and International Relations</li>"
+        }
+      , "dalton": {
+          "id": "dalton"
+        , "title": "<a href='http://www.dalton.org/' target='_blank'>The Dalton School</a>"
+        , "website": "http://www.dalton.org/"
+        , "place": "New York, NY"
+        , "date": "2001&#8211;2009"
+        , "desc": "<ul><li>Senior project: <a href='http://www.willmayner.com/mandelbrot'>Mandelbrot Set Explorer</a></li><li>ACSL Computer Science Team</li><li>National Merit semifinalist</li><li>Independent study in jazz orchestration</li>"
+        }
+      }
+    }
+  , "projects": {
+      "id": "projects"
+    , "title": "Projects"
+    , "items": {
+        "lizwikstrom.com": {
+          "id": "liz"
+        , "label": ""
+        , "title": "<a href='http://lizwikstrom.com'>lizwikstrom.com</a>"
+        , "desc": "A portfolio website for illustrator Liz Wikstrom."
+        }
+      , "simplee": {
+          "id": "simplee"
+        , "label": "Coming soon"
+        , "title": "Simplee"
+        , "desc": "An open-source, Node.js implementation of the Simplex Tree data structure for efficient programmatic representation and manipulation of simplicial complexes."
+      }
+      , "splitr": {
+          "id": "splitr"
+        , "label": "Coming soon"
+        , "title": "Splitr.co"
+        , "desc": "A web app to divide things fairly among friends"
+        }
+      , "paper": {
+          "id": "paper"
+        , "label": "Coming soon"
+        , "title": "A 2-Parameter Family of Kernels for Data Interpolation"
+        , "desc": "Coauthoring a paper with my research partner from the <abbr title='Research Experience for Undergraduates'>REU</abbr> program at <abbr title='Illinois Institute of Technology'>IIT</abbr> for submission to the <abbr title='Society for Industrial and Applied Mathematics'>SIAM</abbr> journal"
+        }
+      , "resume": {
+          "id": "resume"
+        , "title": "<a href='https://github.com/wmayner/resume' target='_blank'>This Resume</a>"
+        , "website": "https://github.com/wmayner/resume"
+        , "desc": "As a way of getting familiar with the <code>Node</code> + <code>CoffeeScript</code> + <code>Express</code> + <code>Jade</code> + <code>Less</code> + <code>Bootstrap</code> stack, I built this resume page as an open-source Node app. The app renders resume content stored in a <span class='mono-font'>.JSON</span> file. Check out the <a href='https://github.com/wmayner/resume' target='_blank'>repo on github</a>."
+        }
+      }
+    }
+  , "skillbars": {
+      "id": "skillbars"
+    , "title": "Technical Skills"
+    , "items": {
+        "matlab": {"title": "Matlab", "level": "90"}
+      , "mongodb": {"title": "MongoDB", "level": "70"}
+      , "express": {"title": "Express", "level": "90"}
+      , "angular": {"title": "AngularJS", "level": "60"}
+      , "node": {"title": "Node.js", "level": "85"}
+      , "latex": {"title": "LaTeX", "level": "95"}
+      , "coffeescript": {"title": "CoffeeScript", "level": "85"}
+      , "git": {"title": "Git", "level": "90"}
+      , "vim": {"title": "Vim", "level": "95"}
+      , "jade": {"title": "Jade", "level": "75"}
+      , "bootstrap": {"title": "Bootstrap", "level": "80"}
+      , "css": {"title": "Stylus", "level": "85"}
+      , "less": {"title": "Less", "level": "85"}
+      , "sass": {"title": "Sass", "level": "85"}
+      , "css": {"title": "Stylus", "level": "85"}
+      , "html": {"title": "HTML", "level": "90"}
+      , "java": {"title": "Java", "level": "65"}
+      , "scheme": {"title": "Scheme", "level": "50"}
+      , "unix": {"title": "Unix", "level": "80"}
+      , "mercurial": {"title": "Mercurial", "level": "65"}
+      , "mathematica": {"title": "Mathematica", "level": "40"}
+      , "windows": {"title": "Windows", "level": "80"}
+      }
+    }
+  , "skillbars-print": {
+      "id": "skillbars-print"
+    , "title": "Technical Skills"
+    , "items": {
+        "skills": {
+          "desc": "<code>CoffeeScript</code>, <code>Node</code>, <code>Express</code>, <code>git</code>, <code>SASS</code>, <code>HTML</code>, <code>Jade</code>, <code>Bootstrap</code>, <code>Vim</code>, <code>Java</code>, <code>Scheme</code>, <code>Unix</code>, <code>hg</code>, <code>Matlab</code>, <code>Mathematica</code>, <code>LaTeX</code>, <code>Maple</code>, <code>Windows</code>"
+        }
+      }
+    }
+  , "leadership": {
+      "id": "leadership"
+    , "title": "Leadership Experience"
+    , "items": {
+        "goclub": {
+          "id": "goclub"
+        , "title": "<a href='http://www.college-go.org/' target='_blank'>Brown University Go Club</a>"
+        , "website": "http://www.college-go.org/"
+        , "place": "Providence, RI"
+        , "subtitle": "Founding Member"
+        , "date": "2010&#8211;2013"
+        , "desc": "<ul><li>Helped found the Collegiate Go League, which to date has members from over 7 universities</li> <li>Go is the ancient board game of strategy and tactics, believed to be the first board game ever invented, and as yet unconquered by computer programs</li><li>Raised funds and recruited new members</li> <li>Participated in Go tournament at <abbr title='Massachusetts Institute of Technology'>MIT</abbr> in 2010 for the Brown University Go team</li> <li>Received early support from the <a href='http://www.college-go.org/ing/' target='_blank'>Ing Foundation</a>, whose mission is to promote the spread of Go in Western countries"
+        }
+      , "winona": {
+          "id": "winona"
+        , "title": "<a href='http://www.winonacamps.com/' target='_blank'>Winona Camps</a>"
+        , "website": "http://www.winonacamps.com/"
+        , "place": "Bridgton, ME"
+        , "subtitle": "Woodworking and Riflery Counselor"
+        , "date": "Summers of 2007&#8211;2011"
+        , "desc": "<ul> <li>Held a leadership role among the staff as one of the senior counselors</li> <li>Taught campers (ages 11&#8211;13) skills in woodworking (designing a project, drawing a plan, carpentry techniques) and techniques of marksmanship</li> <li>Mentored campers, encouraging their independence and helping them develop self-confidence and social skills</li> <li>Worked closely with other counselors as a team to ensure camp activities ran smoothly</li>"
+        }
+      }
+    }
+  , "activities": {
+      "title": "Activities"
+    , "items": {
+        "piano": {
+          "title": "Piano Studies"
+        , "date": "2003&#8211;2013"
+        , "desc": "<ul> <li>Classical instruction from 2003&#8211;2009</li> <li>Jazz instruction beginning in 2012</li> <li>Performed recitals at Senior Living Centers as community service, 2008&#8211;2009</li></ul>"
+        }
+      , "harmo": {
+          "title": "Harmonic Motion"
+        , "date": "2010&#8211;2013"
+        , "subtitle": "Beatboxer and bass singer"
+        , "desc": "&#8220;Brown &#38; <abbr title='Rhode Island School of Design'>RISD</abbr>'s Hottest A Cappella Group.&#8221 Performances on campus throughout the academic year."
+        }
+      , "tkd": {
+          "title": "Brown Tae-Kwon-Do"
+        , "subtitle": "Yellow Belt"
+        }
+      , "frisbee": {
+          "title": "Intramural Ultimate Frisbee"
+        }
+      , "skiing": {
+          "title": "Downhill Skiing"
+        }
+      }
+    }
+  }
+}

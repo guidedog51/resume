@@ -1,0 +1,33 @@
+!!! 5
+//if lt IE 7 ]><html class="ie ie6" lang="en">
+//if IE 7 ]><html class="ie ie7" lang="en">
+//if IE 8 ]>
+  script(src="http://html5shim.googlecode.com/svn/trunk/html5.js")
+  <html class="ie ie8" lang="en">
+// [if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]
+
+head
+  meta(charset="utf-8")
+  title= settings.title
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  meta(name='description', content=settings.title)
+  meta(name='author', content=settings.name)
+  link(rel='icon', type='image/png', href='/img/favicon.png')
+
+  // CSS
+  link(rel='stylesheet', href='/css/bootstrap.min.css', type='text/css')
+  link(rel='stylesheet', href='/css/custom.css', type='text/css')
+
+body
+  .container
+    block content
+  footer.center
+    hr
+    p <span class="sans-font">&copy 2013</span> <a href='http://www.willmayner.com/'>Will Mayner</a>&nbsp;&nbsp;&middot;&nbsp;&nbsp;Updated 11/15/13
+
+  // JS
+  script(src='/js/googleAnalytics.js')
+  script(src='/js/bootstrap.min.js')
+  script(src='/js/jquery.js')
+
+| </html>

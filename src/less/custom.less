@@ -1,0 +1,320 @@
+// Use Google Web Fonts
+@import url('http://fonts.googleapis.com/css?family=Inconsolata|Open+Sans:300,400,700|Varela+Round:400');
+
+@bodyFont   : 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+@bodyFontWeight: 300;
+@monoFont   : 'Inconsolata', 'Monaco', monospace;
+@sansFont   : 'Helvetica Neue', Helvetica, sans-serif;
+
+@displayFont: 'Varela Round', 'Helvetica Neue', Helvetica, sans-serif;
+@nameKerning: 0.5em;
+
+@dateRangeFont  : @bodyFont;
+@dateRangeStyle : italic;
+@dateRangeWeight: 300;
+
+@sectionHeaderFont  : @bodyFont;
+@sectionHeaderStyle : normal;
+@sectionHeaderWeight: 400;
+
+@itemTitleWeight: 400;
+
+@linkHoverDecoration : none;
+@linkHoverDecorationPhone: underline;
+
+@linkActiveDecoration: none;
+@linkFocusDecoration : none;
+
+@linkBaseDecoration     : none;
+@linkBaseDecorationPhone: underline;
+
+// Colors
+
+@linkBaseColor  : #000;
+@linkHoverColor : #999;
+@linkActiveColor: #000;
+@linkFocusColor : @linkActiveColor;
+@linkUnderlineColor: hsl(200, 80%, 50%);
+
+@labelBackgroundColor: #bbb;
+
+@displayColor: #000;
+
+@codeColor: #333;
+
+// Spacing
+
+@itemSpacing: 30px;
+@skillbarSpacing: 25px;
+@skillbarHeight: 22px;
+
+// Hacky way to prevent navbar from obscuring headers when jumping to # anchor
+section {
+  padding-top: 40px;
+  margin-top : -40px;
+}
+body {
+  font-family: @bodyFont;
+  font-weight: @bodyFontWeight;
+  font-size: 16pt;
+  line-height: 100%;
+  transition : 0.1s ease;
+}
+ul li {
+    line-height: 140%;
+}
+h2 {
+  margin-top   : 0px;
+  margin-bottom: 0px;
+  font-family  : @sectionHeaderFont;
+  font-style   : @sectionHeaderStyle;
+  font-weight  : @sectionHeaderWeight;
+}
+h4 {
+  margin: 0;
+  font-size: 120%;
+  font-weight :@itemTitleWeight;
+}
+h4 .badge {
+  margin-left: 10px;
+  padding: 5px 9px 3px 9px;
+}
+footer {
+  a {
+    color: #999;
+    &:hover, &:focus, {color: #000}
+    &:active {color: #999}
+  };
+  color: #999;
+}
+ul {
+  margin-bottom: 0;
+}
+a {
+  position: relative;
+  color          : @linkBaseColor;
+  text-decoration: @linkBaseDecoration;
+  transition     : 0.3s ease;
+  &:focus {
+    color          : @linkFocusColor;
+    text-decoration: @linkFocusDecoration;
+  }
+  &:hover {
+    color          : @linkHoverColor;
+    text-decoration: @linkHoverDecoration;
+  }
+  &:active {
+    color          : @linkActiveColor;
+    text-decoration: @linkActiveDecoration;
+  }
+  @media screen and (min-width: 481px) {
+    &:after {
+    border-bottom: 1px dotted @linkUnderlineColor;
+    bottom: 1px;
+    content: '';
+    height: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    text-decoration: @linkBaseDecorationPhone;
+    &:hover {
+      color          : @linkHoverColor;
+      text-decoration: @linkHoverDecorationPhone;
+    }
+  }
+}
+.social-media {
+  margin-top: @itemSpacing;
+  img {
+    @media screen and (min-width: 480px) {
+      margin: 0 9px;
+    }
+    @media screen and (max-width: 480px) {
+      margin: 0 2px;
+      height: 48px;
+      width: 48px;
+    }
+    opacity: 0.6;
+    width: 64px;
+    height: 64px;
+  }
+  a {
+    &:after {
+      display: none!important;
+    }
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+address {
+  font-size    : 100%;
+  line-height  : 1.5em;
+  margin-bottom: 2em;
+}
+.center {
+  text-align: center;
+}
+.sans-font {
+  font-family: @sansFont;
+}
+.mono-font {
+  font-family: @monoFont;
+}
+.display-name {
+  text-transform: uppercase;
+  color: #000;
+  font-family   : @displayFont;
+  font-size     : 50px;
+  @media screen and (max-width: 480px) {
+    font-size: 40px;
+  }
+  letter-spacing: @nameKerning;
+  padding       : 10px 0px;
+  margin-right  : -@nameKerning;
+  margin-bottom : 15px;
+  margin-top    : 30px;
+  line-height   : 1.2em;
+}
+.page-header {
+  margin-bottom: 30px;
+  margin-top   : 20px;
+  padding-bottom: 5px;
+  @media screen and (max-width: 480px) {
+    h2 {
+      font-size: 190%;
+      line-height: 110%;
+    }
+  }
+}
+.resume-item {
+  margin-bottom: @itemSpacing;
+  .title-row {
+    margin-top   : 0px;
+    margin-bottom: 0px;
+    font-weight :@itemTitleWeight;
+  }
+  .title {
+    font-weight :@itemTitleWeight;
+    font-size: 120%;
+    margin-bottom: 10px;
+  }
+  .place {
+    font-weight: 300;
+    margin: 0;
+  }
+  // when viewport is large, italicize date ranges and use different font
+  .date {
+    font-family: @dateRangeFont;
+    font-style : @dateRangeStyle;
+    font-weight: @dateRangeWeight;
+  }
+  .label {
+    margin: 0 15px;
+    padding: 4px 4px 2px 4px;
+    font-weight: normal;
+    font-style: normal;
+  }
+  .date.label {
+    margin: 5px 0;
+  }
+  .label.visible-phone {
+    .date.label
+  }
+  .subtitle-row, .place-row {
+    margin-top: 7px;
+    margin-bottom: 10px;
+  }
+  .subtitle { 
+    font-style: italic;
+    font-weight: 400;
+  }
+  .desc-row {
+    .span12, .span8, .span4 {
+      margin-right: 0;
+      margin-top: 7px;
+      .hidden-phone {
+        margin-left: 30px;
+      }
+    }
+  }
+}
+.skillbar {
+  .skillbar-title.hidden-phone {
+    text-align: right;
+  }
+  .skillbar-title.visible-phone {
+    text-align: center;
+  }
+  .label {
+    margin-bottom: 10px;
+  }
+  .progress {
+    height: @skillbarHeight;
+    margin-bottom: @skillbarSpacing;
+  }
+}
+@media screen {
+  #skillbars-print { display: none }
+}
+code {
+  color: @codeColor;
+}
+
+// Print styles
+@media print {
+  li { margin-left: 20px; }
+  h2 { font-size: 160%; }
+  h4 { font-size: 120%; }
+  body { font-size: 12px; }
+  address { font-size: 100%; } 
+  .display-name { 
+    margin: 25px 0!important;
+    font-size: 200%;
+  }
+  .date {
+    float: left;
+  }
+  .place {
+    font-weight: 300;
+    margin: 0;
+  }
+  // when viewport is large, italicize date ranges and use different font
+  .date {
+    font-family: @dateRangeFont;
+    font-style : @dateRangeStyle;
+    font-weight: @dateRangeWeight;
+  }
+  .label {
+    margin: 0 15px;
+    padding: 4px 4px 2px 4px;
+    font-weight: normal;
+    font-style: normal;
+  }
+  .date.label {
+    margin: 5px 0;
+  }
+  .label.visible-phone {
+    .date.label
+  }
+  .subtitle-row, .lace {
+    float: right;
+  }
+  span.visible-phone.label.label-info, span.visible-phone.label.date {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+  }
+  .social-media { display: none!important }
+  #skillbars { display: none!important }
+  #skillbars-print { 
+    display: block!important;
+    line-height: 2
+  }
+  a:link:after, a:visited:after { display: none!important }
+}
+
