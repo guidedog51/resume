@@ -39,7 +39,6 @@
         , "website": "http://brown.edu"
         , "place": "San Francisco, CA"
         , "subtitle": "B.A. English"
-        , "date": "May, 1971"
         , "desc": "<span><strong>Selected Coursework: </strong></span><ul><li>Creative Writing</li><li>Biology</li><li>Consciousness</li><li>Comparative Literature</li>"
         }
       }
@@ -48,17 +47,16 @@
       "id": "projects"
     , "title": "Projects"
     , "items": {
-        "resume": {
-          "id": "resume"
-        , "title": "<a href='https://github.com/guidedog/resume' target='_blank'>This Resume</a>"
-        , "website": "https://github.com/wmayner/resume"
-        , "desc": "Modified and deployed wmayner's great express based resume onto Azure website.  Check out the original mayner<a href='https://github.com/wmayner/resume' target='_blank'>repo on github</a>."
+        "wgdwebapp": {
+          "id": "webapp"
+        , "title": "<a href='wegodo.com/home' target='_blank'>WeGoDo web app</a>"
+        , "desc": "architect and code single page multi view web application using linked-in version of dust.js client-side templating."
         }
-        ,"blankdot.com": {
-          "id": "liz"
+        ,"wgdseo": {
+          "id": "phantom"
         , "label": ""
-        , "title": "<a href='http://michaelconner.com'>blankdot.com</a>"
-        , "desc": "PointAcross Web-based content creator."
+        , "title": "WeGoDo bot server"
+        , "desc": "SEO description"
         }
       }
     }
@@ -70,7 +68,7 @@
       , "neo4j": {"title": "neo4j", "level": "70"}
       , "express": {"title": "Express", "level": "90"}
       , "weedFS": {"title": "weedFS", "level": "60"}
-      , "node": {"title": "Node.js", "level": "85"}
+      , "nodeJS": {"title": "Node.js", "level": "85"}
       , "javascript": {"title": "javascript", "level": "95"}
       , "phantomjs": {"title": "phantomjs", "level": "85"}
       , "git": {"title": "Git", "level": "90"}
@@ -89,6 +87,11 @@
       , "OSX": {"title": "OSX", "level": "40"}
       , "windows": {"title": "Windows", "level": "80"}
       , "paypal PNP": {"title": "PayPal PNP", "level": "80"}
+      , "XCode": {"title": "XCode", "level": "80"}
+      , "Visual Studio": {"title": "Visual Studio", "level": "80"}
+      , "ASP.net": {"title": "ASP.net", "level": "80"}
+      , "php": {"title": "php", "level": "80"}
+        
       }
     }
   , "skillbars-print": {
@@ -96,7 +99,7 @@
     , "title": "Technical Skills"
     , "items": {
         "skills": {
-          "desc": "<code>MVC4</code>, <code>node</code>, <code>Express</code>, <code>git</code>, <code>SASS</code>, <code>HTML</code>, <code>dustjs</code>, <code>bower</code>, <code>Vim</code>, <code>Java</code>, <code>javascript</code>, <code>ubuntu</code>, <code>hg</code>, <code>OSX</code>, <code>YUISÍ</code>, <code>SQLServer</code>, <code>grunt</code>, <code>Windows</code>, <code>PayPal PNP</code>"
+          "desc": "<code>MVC4</code>, <code>node</code>, <code>Express</code>, <code>git</code>, <code>SASS</code>, <code>HTML</code>, <code>dustjs</code>, <code>bower</code>, <code>Vim</code>, <code>Java</code>, <code>javascript</code>, <code>ubuntu</code>, <code>hg</code>, <code>OSX</code>, <code>YUISÍ</code>, <code>SQLServer</code>, <code>grunt</code>, <code>Windows</code>, <code>PayPal PNP</code>, <code>XCode</code>, <code>Visual Studio</code>, <code>ASP.net</code>, <code>php</code>"
         }
       }
     }

@@ -13,6 +13,22 @@ body {
     -o-transition: .1s ease;
     transition: .1s ease;
 }
+.header {
+    min-height: 425px;
+}
+.res-content {
+    position:absolute;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow-y:scroll; 
+    top: 425px;
+    margin-left: 75px !important;
+}
+.res-content .row {
+   margin-left: 0px !important; 
+}
+
 ul li {
     line-height: 140%}
 h2 {
@@ -33,6 +49,7 @@ h4 .badge {
 }
 footer {
     color: #999;
+    margin-top: 700px;
 }
 footer a {
     color: #999;
