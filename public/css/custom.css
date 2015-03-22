@@ -91,7 +91,7 @@ a:hover {
 .social-media img {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
     filter: alpha(opacity=60);
-    opacity: .6;
+    opacity: .55;
     width: 64px;
     height: 64px;
 }
@@ -109,6 +109,11 @@ a:hover {
     display: none !important;
 }
 .social-media a:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+.hard-copy img:hover {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=50);
     opacity: .5;

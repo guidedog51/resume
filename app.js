@@ -15,6 +15,8 @@ app.configure(function() {
   app.set("name", "Michael Conner");
   app.set("homepage", "www.michael.conner.com");
   app.set("email", "nordl2@pacbell.net");
+  app.set("wordurl", "/download/michaelconnerCV.docx");
+  app.set("pdfurl", "/download/michaelconnerCV.pdf");
   app.set("phone", "+1.510.325.2698");
   app.set('title', "" + (app.get('name')) + " — Resume");
   app.use(express.logger('dev'));
@@ -31,12 +33,22 @@ app.configure(function() {
 app.configure('development', function() {
   return app.use(express.errorHandler());
 });
-
 //app.get('*', function(req, res) {
 //  return res.redirect("http://www.willmayner.com/resume.html");
 //});
 
 app.get('/', routes.index);
+
+app.get('/download/michaelconnerCV.docx', function(req, res){
+  var file = __dirname + '/public/docs/michaelconnerCV.docx';
+  res.download(file); // Set disposition and send it.
+});
+
+app.get('/download/michaelconnerCV.pdf', function(req, res){
+  var file = __dirname + '/public/docs/michaelconnerCV.pdf';
+  res.download(file); // Set disposition and send it.
+});
+
 http.createServer(app).listen(app.get('port'), function() {
   return console.log("Express server listening on port " + app.get('port'));
 });

@@ -13,10 +13,10 @@
         "wegodo.com": {
           "id": "wegodo.com"
         , "title": "<a href='http://wegodo.com' target= '_blank'>WeGoDo</a>"
-        , "place": "London, UK & San Francisco, CA"
+        , "place": "London, UK &<BR/>San Francisco, CA"
         , "subtitle": "Senior Full Stack Developer"
         , "date": "November 2013–March 2015"
-        , "desc": "<ul><li>Developed WeGoDo Web Application and contributed to development of WeGoDo iOS mobile social media application</li><li>Did everything</li><li>Contributed to product and business development.</li><li>Worked on extending Joinin.com event and ticketing platforms.</li></ul>"
+        , "desc": "<ul><li>Developed WeGoDo social media web application</li> <li>Developed WeGoDo iOS mobile social media application</li><li>Developed WebAPI 2.0 web service platform for web and iOS app</li><li>Contributed to product and business development.</li><li>Developed company's preview Joinin.com ASP.net web application.</li> <li>Developed Paypal PNP API integration with WeGoDo web application for event ticketing.</li></ul>"
         }
       , "pointacross": {
           "id": "pointacrosss"
@@ -48,17 +48,17 @@
       "id": "projects"
     , "title": "Projects"
     , "items": {
-        "blankdot.com": {
-          "id": "liz"
-        , "label": ""
-        , "title": "<a href='http://michaelconner.com'>blankdot.com</a>"
-        , "desc": "PointAcross Web-based content creator."
-        }
-      , "resume": {
+        "resume": {
           "id": "resume"
         , "title": "<a href='https://github.com/guidedog/resume' target='_blank'>This Resume</a>"
         , "website": "https://github.com/wmayner/resume"
         , "desc": "Modified and deployed wmayner's great express based resume onto Azure website.  Check out the original mayner<a href='https://github.com/wmayner/resume' target='_blank'>repo on github</a>."
+        }
+        ,"blankdot.com": {
+          "id": "liz"
+        , "label": ""
+        , "title": "<a href='http://michaelconner.com'>blankdot.com</a>"
+        , "desc": "PointAcross Web-based content creator."
         }
       }
     }
@@ -88,6 +88,7 @@
       , "mercurial": {"title": "Mercurial", "level": "65"}
       , "OSX": {"title": "OSX", "level": "40"}
       , "windows": {"title": "Windows", "level": "80"}
+      , "paypal PNP": {"title": "PayPal PNP", "level": "80"}
       }
     }
   , "skillbars-print": {
@@ -95,7 +96,7 @@
     , "title": "Technical Skills"
     , "items": {
         "skills": {
-          "desc": "<code>MVC4</code>, <code>node</code>, <code>Express</code>, <code>git</code>, <code>SASS</code>, <code>HTML</code>, <code>dustjs</code>, <code>bower</code>, <code>Vim</code>, <code>Java</code>, <code>javascript</code>, <code>ubuntu</code>, <code>hg</code>, <code>OSX</code>, <code>YUISÍ</code>, <code>SQLServer</code>, <code>grunt</code>, <code>Windows</code>"
+          "desc": "<code>MVC4</code>, <code>node</code>, <code>Express</code>, <code>git</code>, <code>SASS</code>, <code>HTML</code>, <code>dustjs</code>, <code>bower</code>, <code>Vim</code>, <code>Java</code>, <code>javascript</code>, <code>ubuntu</code>, <code>hg</code>, <code>OSX</code>, <code>YUISÍ</code>, <code>SQLServer</code>, <code>grunt</code>, <code>Windows</code>, <code>PayPal PNP</code>"
         }
       }
     }
@@ -118,6 +119,9 @@
         }
       , "skiing": {
           "title": "Downhill Skiing"
+        }
+      , "photography": {
+          "title": "Photography"
         }
       }
     }
