@@ -35,8 +35,8 @@
     , "items": {
         "sfsu": {
           "id": "sfsu"
-        , "title": "<a href='http://sfsu.edu' target='_blank'>San Francisco State University</a>"
-        , "website": "http://brown.edu"
+        , "title": "<a href='http://www.sfsu.edu' target='_blank'>San Francisco State University</a>"
+        , "website": "http://www.sfsu.edu"
         , "place": "San Francisco, CA"
         , "subtitle": "B.A. English"
         , "desc": "<span><strong>Selected Coursework: </strong></span><ul><li>Creative Writing</li><li>Biology</li><li>Consciousness</li><li>Comparative Literature</li>"
@@ -64,9 +64,9 @@
       "id": "skillbars"
     , "title": "Technical Skills"
     , "items": {
-        "MVC4": {"title": "MVC4", "level": "90"}
+        "ASP.NET/MVC": {"title": "ASP.NET/MVC", "level": "90"}
       , "neo4j": {"title": "neo4j", "level": "70"}
-      , "express": {"title": "Express", "level": "90"}
+      , "express": {"title": "ExpressJS", "level": "90"}
       , "weedFS": {"title": "weedFS", "level": "60"}
       , "nodeJS": {"title": "Node.js", "level": "85"}
       , "javascript": {"title": "javascript", "level": "95"}
@@ -91,7 +91,26 @@
       , "Visual Studio": {"title": "Visual Studio", "level": "80"}
       , "ASP.net": {"title": "ASP.net", "level": "80"}
       , "php": {"title": "php", "level": "80"}
-        
+      , "jQuery": {"title": "jQuery", "level": "80"}
+      , "WCF Services": {"title": "WCF Services", "level": "80"}
+      , "IIS": {"title": "IIS", "level": "80"}
+      , "Windows Azure": {"title": "Windows Azure", "level": "80"}
+      , "C#/.Net": {"title": "C#/.Net", "level": "80"}
+      , "Html5": {"title": "Html5", "level": "80"}
+      , "DirectX Audio": {"title": "DirectX Audio", "level": "80"}
+      , "ffMpeg": {"title": "ffMpeg", "level": "80"}
+      , "xamarin iOS": {"title": "xamarin iOS", "level": "80"}
+      , "xamarin Android": {"title": "xamarin Android", "level": "80"}
+      , "Telerik tools": {"title": "Telerik", "level": "80"}
+      , "IntelliJ IDEA": {"title": "IntelliJ IDEA", "level": "80"}
+      , "Telerik AppBuilder": {"title": "Telerik AppBuilder", "level": "80"}
+      , "IntelliJ IDEA": {"title": "IntelliJ IDEA", "level": "80"}
+      , "AppStore deployment": {"title": "AppStore Deployment", "level": "80"}
+      , "GooglePlay deployment": {"title": "GooglePlay Deployment", "level": "80"}
+      , "iOS Geocoder": {"title": "iOS Geocoder", "level": "80"}
+      , "Google Webmaster": {"title": "Google Webmaster", "level": "80"}
+      , "Subversion": {"title": "Subversion", "level": "80"}
+      , "TFS": {"title": "TFS", "level": "80"}
       }
     }
   , "skillbars-print": {
@@ -99,7 +118,7 @@
     , "title": "Technical Skills"
     , "items": {
         "skills": {
-          "desc": "<code>MVC4</code>, <code>node</code>, <code>Express</code>, <code>git</code>, <code>SASS</code>, <code>HTML</code>, <code>dustjs</code>, <code>bower</code>, <code>Vim</code>, <code>Java</code>, <code>javascript</code>, <code>ubuntu</code>, <code>hg</code>, <code>OSX</code>, <code>YUISÍ</code>, <code>SQLServer</code>, <code>grunt</code>, <code>Windows</code>, <code>PayPal PNP</code>, <code>XCode</code>, <code>Visual Studio</code>, <code>ASP.net</code>, <code>php</code>"
+          "desc": "<code>ASP.NET</code>, <code>nodeJS</code>, <code>ExpressJS</code>, <code>git</code>, <code>SASS</code>, <code>HTML</code>, <code>dustjs</code>, <code>bower</code>, <code>Vim</code>, <code>Java</code>, <code>javascript</code>, <code>ubuntu</code>, <code>hg</code>, <code>OSX</code>, <code>YUI</code>, <code>SQLServer</code>, <code>grunt</code>, <code>Windows</code>, <code>PayPal PNP</code>, <code>XCode</code>, <code>Visual Studio</code>, <code>ASP.net</code>, <code>php</code>, <code>jQuery</code>, <code>WCF Services</code>, <code>IIS</code>, <code>Windows Azure</code>, <code>C#/.Net</code>, <code>Html5</code>, <code>Direct X Audio</code>, <code>ffMpeg</code>, <code>xamarin iOS</code>, <code>xamarin Android</code>, <code>Telerik tools</code>, <code>IntelliJ IDEA</code>, <code>Telerik AppBuilder</code>, <code>IntelliJ IDEA</code>, <code>AppStore deployment</code>, <code>GooglePlay deployment</code>, <code>iOS Geocoder</code>, <code>Google Webmaster</code>, <code>Subversion</code>, <code>TFS</code>"
         }
       }
     }
