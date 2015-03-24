@@ -38,6 +38,7 @@ app.configure('development', function() {
 //});
 
 app.get('/resume', routes.index);
+app.get('/', routes.index);
 
 app.get('/download/michaelconnerCV.docx', function(req, res){
   var file = __dirname + '/public/docs/michaelconnerCV.docx';
