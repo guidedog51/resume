@@ -138,6 +138,9 @@ a:hover {
     footer {
         margin-left: -10px !important;
     }
+    .span6 {
+       width: 150% !important; 
+    }
 }
 }@media screen and (max-width:768px) {
     .social-media img {
@@ -251,7 +254,7 @@ address {
 }
 .skillbar .skillbar-title.visible-phone {
     text-align: center;
-    width: 33%
+    width: 50%
 }
 .skillbar .label {
     margin-bottom: 10px;
