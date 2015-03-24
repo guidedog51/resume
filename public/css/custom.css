@@ -118,9 +118,20 @@ a:hover {
     width: 64px;
     height: 64px;
 }
-@media screen and (min-width:768px) {
-    .social-media img {
-    margin: 0 9px;
+@media screen and (max-width:768px) {
+   /* .social-media img {
+    margin: 0 9px;*/
+    
+    .res-content {
+    position:relative;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow-y:scroll; 
+    top: auto;
+    margin-left: 0 !important;
+}
+
 }
 }@media screen and (max-width:768px) {
     .social-media img {
@@ -178,8 +189,8 @@ address {
 }
 @media screen and (max-width:480px) {
     .page-header h2 {
-    font-size: 190%;
-    line-height: 110%}
+    /*font-size: 190%;
+    line-height: 110%*/}
 }.resume-item {
     margin-bottom: 30px;
 }

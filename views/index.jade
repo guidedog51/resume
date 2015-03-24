@@ -19,9 +19,9 @@ block content
               for service in socialmedia
                 a(href=service.url, target='_blank')
                     img(class="img-circle", src="img/"+service.iconName+".png")
-            a.hard-copy(href=settings.wordurl, title="Download Microsoft Word resume.")
+            a.hard-copy(href=settings.wordurl)
                 img(src="img/microsoft-word-64.png")
-            a.hard-copy(href=settings.pdfurl, title="Download PDF resume.")
+            a.hard-copy(href=settings.pdfurl)
                 img(src="img/pdf-64.png")
   div.res-content                  
       for sec in sections
