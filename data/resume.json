@@ -1,9 +1,9 @@
 {
   "socialmedia": {
-    "github": {"iconName": "github", "url": "https://github.com/michaelconner"}
-  , "twitter": {"iconName": "twitter", "url": "https://twitter.com/guidedog51"}
-  , "soundcloud": {"iconName": "soundcloud", "url": "https://soundcloud.com/Guidedog"}
-  , "linkedin": {"iconName": "linkedin", "url": "http://www.linkedin.com/mikeconner"}
+    "github": {"iconName": "github", "url": "https://github.com/guidedog51"}
+  , "twitter": {"iconName": "twitter", "url": "https://twitter.com/#!//Guidedog51"}
+  , "soundcloud": {"iconName": "soundcloud", "url": "https://soundcloud.com/guidedog"}
+  , "linkedin": {"iconName": "linkedin", "url": "http://www.linkedin.com/pub/michael-conner/3/3a3/941"}
   }
 , "sections": {
     "experience": {
@@ -14,7 +14,7 @@
           "id": "wegodo.com"
         , "title": "<a href='http://wegodo.com' target= '_blank'>WeGoDo</a>"
         , "place": "London, UK &<BR/>San Francisco, CA"
-        , "subtitle": "Senior Full Stack Developer"
+        , "subtitle": "Full Stack Developer"
         , "date": "November 2013–March 2015"
         , "desc": "<ul><li>Developed WeGoDo social media web application</li> <li>Developed WeGoDo iOS mobile social media application</li><li>Developed WebAPI 2.0 web service platform for web and iOS app</li><li>Contributed to product and business development.</li><li>Developed company's preview Joinin.com ASP.net web application.</li> <li>Developed Paypal PNP API integration with WeGoDo web application for event ticketing.</li></ul>"
         }
@@ -35,8 +35,8 @@
     , "items": {
         "sfsu": {
           "id": "sfsu"
-        , "title": "<a href='http://sfsu.edu' target='_blank'>San Francisco State University</a>"
-        , "website": "http://brown.edu"
+        , "title": "<a href='http://www.sfsu.edu' target='_blank'>San Francisco State University</a>"
+        , "website": "http://www.sfsu.edu"
         , "place": "San Francisco, CA"
         , "subtitle": "B.A. English"
         , "desc": "<span><strong>Selected Coursework: </strong></span><ul><li>Creative Writing</li><li>Biology</li><li>Consciousness</li><li>Comparative Literature</li>"
@@ -64,9 +64,9 @@
       "id": "skillbars"
     , "title": "Technical Skills"
     , "items": {
-        "MVC4": {"title": "MVC4", "level": "90"}
+        "ASP.NET/MVC": {"title": "ASP.NET/MVC", "level": "90"}
       , "neo4j": {"title": "neo4j", "level": "70"}
-      , "express": {"title": "Express", "level": "90"}
+      , "express": {"title": "ExpressJS", "level": "90"}
       , "weedFS": {"title": "weedFS", "level": "60"}
       , "nodeJS": {"title": "Node.js", "level": "85"}
       , "javascript": {"title": "javascript", "level": "95"}
@@ -75,14 +75,13 @@
       , "vim": {"title": "Vim", "level": "95"}
       , "dustjs": {"title": "dustjs", "level": "75"}
       , "grunt": {"title": "grunt", "level": "80"}
-      , "css": {"title": "Stylus", "level": "85"}
+      , "css": {"title": "Css", "level": "85"}
       , "bower": {"title": "bower", "level": "85"}
       , "sass": {"title": "Sass", "level": "85"}
       , "YUI": {"title": "YUI", "level": "85"}
       , "SQLServer ": {"title": "SQLServer", "level": "90"}
       , "java": {"title": "Java", "level": "65"}
       , "ubuntu": {"title": "Ubuntu", "level": "50"}
-      , "unix": {"title": "Unix", "level": "80"}
       , "mercurial": {"title": "Mercurial", "level": "65"}
       , "OSX": {"title": "OSX", "level": "40"}
       , "windows": {"title": "Windows", "level": "80"}
@@ -91,7 +90,29 @@
       , "Visual Studio": {"title": "Visual Studio", "level": "80"}
       , "ASP.net": {"title": "ASP.net", "level": "80"}
       , "php": {"title": "php", "level": "80"}
-        
+      , "jQuery": {"title": "jQuery", "level": "80"}
+      , "WCF Services": {"title": "WCF Services", "level": "80"}
+      , "IIS": {"title": "IIS", "level": "80"}
+      , "Windows Azure": {"title": "Windows Azure", "level": "80"}
+      , "C#/.Net": {"title": "C#/.Net", "level": "80"}
+      , "Html5": {"title": "Html5", "level": "80"}
+      , "DirectX Audio": {"title": "DirectX Audio", "level": "80"}
+      , "ffMpeg": {"title": "ffMpeg", "level": "80"}
+      , "xamarin iOS": {"title": "xamarin iOS", "level": "80"}
+      , "xamarin Android": {"title": "xamarin Android", "level": "80"}
+      , "Telerik tools": {"title": "Telerik", "level": "80"}
+      , "IntelliJ IDEA": {"title": "IntelliJ IDEA", "level": "80"}
+      , "Telerik AppBuilder": {"title": "Telerik AppBuilder", "level": "80"}
+      , "IntelliJ IDEA": {"title": "IntelliJ IDEA", "level": "80"}
+      , "AppStore": {"title": "AppStore", "level": "80"}
+      , "GooglePlay": {"title": "GooglePlay", "level": "80"}
+      , "iOS Geocoder": {"title": "iOS Geocoder", "level": "80"}
+      , "Google Webmaster": {"title": "Google Webmaster", "level": "80"}
+      , "Subversion": {"title": "Subversion", "level": "80"}
+      , "TFS": {"title": "TFS", "level": "80"}
+      , "WordPress": {"title": "WordPress", "level": "80"}
+      , "Studio One": {"title": "Studio One", "level": "80"}
+      , "Cubasis": {"title": "Cubasis", "level": "80"}
       }
     }
   , "skillbars-print": {
@@ -99,7 +120,7 @@
     , "title": "Technical Skills"
     , "items": {
         "skills": {
-          "desc": "<code>MVC4</code>, <code>node</code>, <code>Express</code>, <code>git</code>, <code>SASS</code>, <code>HTML</code>, <code>dustjs</code>, <code>bower</code>, <code>Vim</code>, <code>Java</code>, <code>javascript</code>, <code>ubuntu</code>, <code>hg</code>, <code>OSX</code>, <code>YUISÍ</code>, <code>SQLServer</code>, <code>grunt</code>, <code>Windows</code>, <code>PayPal PNP</code>, <code>XCode</code>, <code>Visual Studio</code>, <code>ASP.net</code>, <code>php</code>"
+          "desc": "<code>ASP.NET</code>, <code>nodeJS</code>, <code>ExpressJS</code>, <code>git</code>, <code>SASS</code>, <code>HTML5</code>, <code>dustjs</code>, <code>bower</code>, <code>Vim</code>, <code>Java</code>, <code>javascript</code>, <code>ubuntu</code>, <code>Mercurial</code>, <code>OSX</code>, <code>YUI</code>, <code>SQLServer</code>, <code>grunt</code>, <code>Windows</code>, <code>PayPal PNP</code>, <code>XCode</code>, <code>Visual Studio</code>, <code>ASP.net</code>, <code>php</code>, <code>jQuery</code>, <code>WCF Services</code>, <code>IIS</code>, <code>Windows Azure</code>, <code>C#/.Net</code>, <code>Html5</code>, <code>Direct X Audio</code>, <code>ffMpeg</code>, <code>xamarin iOS</code>, <code>xamarin Android</code>, <code>Telerik tools</code>, <code>IntelliJ IDEA</code>, <code>Telerik AppBuilder</code>, <code>IntelliJ IDEA</code>, <code>AppStore</code>, <code>GooglePlay</code>, <code>iOS Geocoder</code>, <code>Google Webmaster</code>, <code>Subversion</code>, <code>TFS</code>, <code>WordPress</code>, <code>Cubasis</code>, <code>Studio One</code>"
         }
       }
     }

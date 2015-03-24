@@ -13,7 +13,7 @@ app = express();
 
 app.configure(function() {
   app.set("name", "Michael Conner");
-  app.set("homepage", "www.michael.conner.com");
+  app.set("homepage", "www.michaelpconner.com");
   app.set("email", "nordl2@pacbell.net");
   app.set("wordurl", "/download/michaelconnerCV.docx");
   app.set("pdfurl", "/download/michaelconnerCV.pdf");
@@ -37,7 +37,7 @@ app.configure('development', function() {
 //  return res.redirect("http://www.willmayner.com/resume.html");
 //});
 
-app.get('/', routes.index);
+app.get('/resume', routes.index);
 
 app.get('/download/michaelconnerCV.docx', function(req, res){
   var file = __dirname + '/public/docs/michaelconnerCV.docx';
