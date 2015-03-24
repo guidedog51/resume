@@ -130,8 +130,14 @@ a:hover {
     overflow-y:scroll; 
     top: auto;
     margin-left: 0 !important;
-}
-
+   } 
+    body {
+        padding-left: 10px !important; 
+        padding-right: 10px !important;
+    }
+    footer {
+        margin-left: -10px !important;
+    }
 }
 }@media screen and (max-width:768px) {
     .social-media img {
