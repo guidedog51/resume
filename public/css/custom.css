@@ -139,7 +139,7 @@ a:hover {
         margin-left: -10px !important;
     }
     .span6 {
-       width: 150% !important; 
+       width: 140% !important; 
     }
 }
 }@media screen and (max-width:768px) {
@@ -216,6 +216,7 @@ address {
 .resume-item .place {
     font-weight: 300;
     margin: 0;
+    line-height: normal;
 }
 .resume-item .date {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
