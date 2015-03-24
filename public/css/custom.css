@@ -28,7 +28,9 @@ body {
 .res-content .row {
    margin-left: 0px !important; 
 }
-
+#skillbars {
+    display:table;
+}
 ul li {
     line-height: 140%}
 h2 {
@@ -49,7 +51,11 @@ h4 .badge {
 }
 footer {
     color: #999;
-    margin-top: 700px;
+    background-color: whitesmoke;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
 }
 footer a {
     color: #999;
@@ -112,11 +118,11 @@ a:hover {
     width: 64px;
     height: 64px;
 }
-@media screen and (min-width:480px) {
+@media screen and (min-width:768px) {
     .social-media img {
     margin: 0 9px;
 }
-}@media screen and (max-width:480px) {
+}@media screen and (max-width:768px) {
     .social-media img {
     margin: 0 2px;
     height: 48px;
