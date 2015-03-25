@@ -26,7 +26,7 @@
         , "place": "San Francisco, CA"
         , "subtitle": "Lead Developer"
         , "date": "July 2007 - October 2013"
-        , "desc": "<ul><li>Lead engineer for MVC4 / Azure based messaging application. </li><li>Lead engineer for ASP.net MVC3 content sharing web application.</li><li>Lead engineer for ASP.net e-commerce portal</li><li>Lead engineer for content sharing product (XAML, MVC).</li><li>Key member of Windows Azure conversion team</li><li>Refactored existing web commercial and administrative products for deployment to Windows Azure.</li><li>Lead engineer for all audio editing and MP3 encoded components used in GoldMail commercial desktop application.</li></ul>"
+        , "desc": "<ul><li>Lead engineer for MVC4 / Azure based messaging application. </li><li>Lead engineer for ASP.net MVC3 content sharing web application.</li><li>Lead engineer for ASP.net e-commerce portal</li><li>Lead engineer for content sharing product (XAML, MVC).</li><li>Key member of Microsoft Azure conversion team</li><li>Refactored existing web commercial and administrative products for deployment to Microsoft Azure.</li><li>Lead engineer for all audio editing and MP3 encoded components used in GoldMail commercial desktop application.</li></ul>"
         }
       , "sacketgroup": {
           "id": "macpac"
@@ -111,7 +111,7 @@
       , "jQuery": {"title": "jQuery", "level": "80"}
       , "WCF Services": {"title": "WCF Services", "level": "85"}
       , "IIS": {"title": "IIS", "level": "65"}
-      , "Windows Azure": {"title": "Windows Azure", "level": "65"}
+      , "Microsoft Azure": {"title": "Microsoft Azure", "level": "65"}
       , "C#/.Net": {"title": "C#/.Net", "level": "90"}
       , "Html5": {"title": "Html5", "level": "75"}
       , "DirectX Audio": {"title": "DirectX Audio", "level": "90"}
@@ -139,7 +139,7 @@
     , "title": "Technical Skills"
     , "items": {
         "skills": {
-          "desc": "<code>ASP.NET</code>, <code>nodeJS</code>, <code>ExpressJS</code>, <code>git</code>, <code>SASS</code>, <code>HTML5</code>, <code>dustjs</code>, <code>bower</code>, <code>Vim</code>, <code>Java</code>, <code>javascript</code>, <code>ubuntu</code>, <code>Mercurial</code>, <code>OSX</code>, <code>YUI</code>, <code>SQLServer</code>, <code>grunt</code>, <code>Windows</code>, <code>PayPal PNP</code>, <code>XCode</code>, <code>Visual Studio</code>, <code>ASP.net</code>, <code>php</code>, <code>jQuery</code>, <code>WCF Services</code>, <code>IIS</code>, <code>Windows Azure</code>, <code>C#/.Net</code>, <code>Html5</code>, <code>Direct X Audio</code>, <code>ffMpeg</code>, <code>xamarin iOS</code>, <code>xamarin Android</code>, <code>Telerik tools</code>, <code>IntelliJ IDEA</code>, <code>Telerik AppBuilder</code>, <code>IntelliJ IDEA</code>, <code>AppStore</code>, <code>GooglePlay</code>, <code>iOS Geocoder</code>, <code>Google Webmaster</code>, <code>Subversion</code>, <code>TFS</code>, <code>WordPress</code>, <code>Cubasis</code>, <code>Studio One</code>, <code>WebAPI2</code>"
+          "desc": "<code>ASP.NET</code>, <code>nodeJS</code>, <code>ExpressJS</code>, <code>git</code>, <code>SASS</code>, <code>HTML5</code>, <code>dustjs</code>, <code>bower</code>, <code>Vim</code>, <code>Java</code>, <code>javascript</code>, <code>ubuntu</code>, <code>Mercurial</code>, <code>OSX</code>, <code>YUI</code>, <code>SQLServer</code>, <code>grunt</code>, <code>Windows</code>, <code>PayPal PNP</code>, <code>XCode</code>, <code>Visual Studio</code>, <code>ASP.net</code>, <code>php</code>, <code>jQuery</code>, <code>WCF Services</code>, <code>IIS</code>, <code>Microsoft Azure</code>, <code>C#/.Net</code>, <code>Html5</code>, <code>Direct X Audio</code>, <code>ffMpeg</code>, <code>xamarin iOS</code>, <code>xamarin Android</code>, <code>Telerik tools</code>, <code>IntelliJ IDEA</code>, <code>Telerik AppBuilder</code>, <code>IntelliJ IDEA</code>, <code>AppStore</code>, <code>GooglePlay</code>, <code>iOS Geocoder</code>, <code>Google Webmaster</code>, <code>Subversion</code>, <code>TFS</code>, <code>WordPress</code>, <code>Cubasis</code>, <code>Studio One</code>, <code>WebAPI2</code>"
         }
       }
     }
