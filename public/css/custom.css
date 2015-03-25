@@ -20,7 +20,7 @@ body {
     position:absolute;
     left:0px;
     right:0px;
-    bottom:0px;
+    bottom:40px;
     overflow-y:scroll; 
     top: 425px;
     margin-left: 75px !important;
@@ -49,6 +49,11 @@ h4 .badge {
     margin-left: 10px;
     padding: 5px 9px 3px 9px;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 25px;
+}
+
 footer {
     color: #999;
     background-color: whitesmoke;
@@ -102,7 +107,7 @@ a:active {
 }
 }@media screen and (max-width:480px) {
     a {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 a:hover {
     color: #999;
@@ -131,7 +136,7 @@ a:hover {
     position:relative;
     left:0px;
     right:0px;
-    bottom:0px;
+    bottom:40px;
     overflow-y:scroll; 
     top: auto;
     margin-left: 0 !important;
