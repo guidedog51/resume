@@ -118,6 +118,11 @@ a:hover {
     width: 64px;
     height: 64px;
 }
+.fb-circle {
+    width: 60px !important;
+    height: 60px !important;
+    margin-top: -4px;
+}
 @media screen and (max-width:768px) {
    /* .social-media img {
     margin: 0 9px;*/
