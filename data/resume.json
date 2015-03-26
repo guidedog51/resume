@@ -73,27 +73,32 @@
     , "items": {
         "wgdwebapp": {
           "id": "webapp"
-        , "label": "dustJS, express, html5, jquery, ajax, nodeJS, WebAPI2, ubuntu, apache"
+        , "label": "dustJS, express, html5, jquery, ajax, nodeJS, WebAPI2, ubuntu, apache, microsoft azure"
         , "title": "<a href='http://wegodo.cloudapp.net' target='_blank'>Single Page Web Application with Dust.js templating </a>"
         , "desc": "Ported legacy ASP.net web application to html web application using linked-in version of Dust.js for client-side rendering of dynamic content fetched by jquery ajax.  Website scaled to support deep linking and og applinks to facebook. "
         }
         ,"wgdseo": {
           "id": "phantom"
-        , "label": "phantomJS, apache, express, nodeJS"
+        , "label": "phantomJS, apache, express, nodeJS, ajax"
         , "title": "<a href='#0'>PhantomJS headless browser bot service</a>"
-        , "desc": "Because the WeGoDo website is a one page app with client side rendering, provided a solution for SEO using an instance of the headless phantomJS webkit browser running in Apache on Ubuntu.  Bot requests are redirected to this nodeJS process, which in turn spawns a phantomJS instance that returns fully rendered html to the bot for indexing. "
+        , "desc": "Because the WeGoDo website is a one page app with dynamic content rendered client side, provided a solution for SEO using an instance of the headless phantomJS webkit browser running in Apache on Ubuntu.  Bot requests are redirected to this nodeJS process, which in turn spawns a phantomJS instance that returns fully rendered html with dynamic content to the bot for indexing. "
+        },"ios": {
+          "id": "iOS"
+        , "label": "xamarin, c#, XCode, GLGeocoder, Google Geocoder"
+        , "title": "<a href='#0'>iOS App development</a>"
+        , "desc": "Using Xamarin Studio, extending the WeGoDo iOS social media app.  Work included designing and implementing places configuration workflow based on map searches and reverse geolocation, place search for capturing user profile data, and creating shared view models for interest matching, feed, and messaging workflows.  Also implemented image upload and thumbnail display inside feed posts and place configuration based on Twitter model and workflow."
         }
         ,"pointacross": {
           "id": "cloudcomposer"
         , "label": "MVC, flash, html5, ajax, microsoft azure, WCF, REST"
         , "title": "<a href='#0'>MVC web-based audio messaging composer tool</a>"
-        , "desc": "PointAcross had a legacy Winforms application used to create narrated slideshows that were shared and served as flash video content hosted in html.  Company needed a cross platform solution, so I architected and built a web composing tool based on MIT open-source WAMI speech recognition plug-in which streamed audio to a php server hosted on Windows Azure and stored image and video assets onto our cdn. "
+        , "desc": "PointAcross had a legacy Winforms application used to create narrated slideshows that were shared and served as flash video content hosted in html.  Company needed a cross-platform solution, so I architected and built a web composing tool based on MIT open-source WAMI speech recognition plug-in which streamed audio to a php server hosted on Windows Azure and stored image and video assets onto our cdn."
         }
         ,"pavideo": {
           "id": "videoconverter"
         , "label": "Winforms, ffMpeg, avisynth, C#, microsoft azure"
         , "title": "<a href='#0'>ff-Mpeg flash to video converter</a>"
-        , "desc": "PointAcross needed a tool for combining message audio and image assets, plus a timing file into video content in a variety of formats and resolutions.  Created a native app that scripted ffMpeg to render usuable video for sharing to YouTube, Facebook, and Twitter."
+        , "desc": "PointAcross needed a tool for combining message audio and image assets, plus a timing file into video content in a variety of formats and resolutions.  Created a native app that scripted ffMpeg with aviSynth to render usuable video for sharing via YouTube, Facebook, and Twitter."
         }
       }
     }
@@ -172,13 +177,13 @@
           "title": "Music"
         , "desc": "<ul> <li>Keyboard player and songwriter/performer with local bands; session recording artist.</li> </ul>"
         }
-        ,"music": {
+        ,"production": {
           "title": "<a href='https://soundcloud.com/guidedog' target='_blank'>Music recording and production.</a>"
-        , "desc": "<ul> <li>Keyboard player and songwriter/performer with local bands; session recording artist.</li> </ul>"
+        , "desc": "<ul> <li>Currently producing and recording several projects in my home studio.</li><li><iframe width='100%' height='20' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193977442&amp;color=ff9900&amp;inverse=false&amp;auto_play=false&amp;show_user=true'></iframe></li> </ul>"
         }
-        ,"music": {
+        ,"other": {
           "title": "Other Interests and Activities"
-        , "desc": "<ul><li>Flash photography in the <a href='http://www.strobist.blogspot.com' target='_blank'>Strobist style</a>; Image processing with Adobe Lightroom and Photoshop; road and mountain bikeing; skiing; hiking and backpacking; travel; cooking; espresso machines; maintaining and repairing (and playing) Hammond Organs and Leslie speakers.</li></ul>"
+        , "desc": "<ul><li>Flash photography in the <a href='http://www.strobist.blogspot.com' target='_blank'>Strobist style</a>; Image processing with Adobe Lightroom and Photoshop; road and mountain biking; skiing; hiking and backpacking; travel; cooking; espresso machines; maintaining and repairing (and playing) Hammond Organs and Leslie speakers.</li></ul>"
         }
       }
     }
