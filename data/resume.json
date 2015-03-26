@@ -17,7 +17,7 @@
         , "place": "London, UK &<BR/>San Francisco, CA"
         , "subtitle": "Full Stack Developer"
         , "date": "November 2013–March 2015"
-        , "desc": "<ul><li>Developed WeGoDo social media web application.</li> <li>Developed WeGoDo iOS mobile social media application.</li><li>Developed WebAPI 2.0 web service platform for web and iOS app</li><li>Contributed to product and business development.</li><li>Developed company's preview Joinin.com ASP.net web application.</li> <li>Developed Paypal PNP API integration with WeGoDo web application for event ticketing.</li></ul>"
+        , "desc": "<ul><li>Built WeGoDo social media web application.</li> <li>Component and new features work on WeGoDo iOS mobile social media app.</li><li>Developed WebAPI 2.0 web service platform for web and iOS app</li><li>Contributed to product and business development.</li><li>Feature and backend development for Joinin.com ASP.net web application.</li> <li>Developed Paypal PNP API integration with WeGoDo web application for event ticketing and payment processing.</li><li>Implemented deeplinking, facebook og applinks, and twitter cards integration on the website and iOS app.</li></ul>"
         }
       , "pointacross": {
           "id": "pointacross"
@@ -43,7 +43,7 @@
         , "place": "Oakland, CA"
         , "subtitle": "Science Fiction"
         , "date": "1990 - 2002"
-        , "desc": "<ul><li>Published four novels and numerous shorter pieces in the science fiction genre</li><li>Won SFWA Nebula award for novelette 'Guidedog'</li></ul>"
+        , "desc": "<ul><li>Published four novels and numerous shorter pieces in the science fiction genre</li><li>Won SFWA Nebula award for novelette 'Guidedog'.</li></ul>"
         }
       }
     }
@@ -57,7 +57,13 @@
         , "website": "http://www.sfsu.edu"
         , "place": "San Francisco, CA"
         , "subtitle": "B.A. English"
-        , "desc": "<span><strong>Selected Coursework: </strong></span><ul><li>Creative Writing</li><li>Biology</li><li>Consciousness</li><li>Comparative Literature</li>"
+        , "desc": "<ul><li>Minors in Botany, Creative Writing and Psychology</li></ul>"
+        }
+        ,"clarion": {
+          "id": "clarion"
+        , "title": "<a href='#0'>Clarion Writer's Workshop</a>"
+        , "place": "Michigan State University"
+        , "desc": "<ul><li>Intensive course and workshop in Creative Writing.</li>"
         }
       }
     }
@@ -67,14 +73,32 @@
     , "items": {
         "wgdwebapp": {
           "id": "webapp"
-        , "title": "<a href='wegodo.com/home' target='_blank'>WeGoDo web app</a>"
-        , "desc": "architect and code single page multi view web application using linked-in version of dust.js client-side templating."
+        , "label": "dustJS, express, html5, jquery, ajax, nodeJS, WebAPI2, ubuntu, apache, microsoft azure"
+        , "title": "<a href='http://wegodo.cloudapp.net' target='_blank'>Single Page Web Application with Dust.js templating </a>"
+        , "desc": "Ported legacy ASP.net web application to html web application using linked-in version of Dust.js for client-side rendering of dynamic content fetched by jquery ajax.  Website scaled to support deep linking and og applinks to facebook. "
         }
         ,"wgdseo": {
           "id": "phantom"
-        , "label": ""
-        , "title": "WeGoDo bot server"
-        , "desc": "SEO description"
+        , "label": "phantomJS, apache, express, nodeJS, ajax"
+        , "title": "<a href='#0'>PhantomJS headless browser bot service</a>"
+        , "desc": "Because the WeGoDo website is a one page app with dynamic content rendered client side, provided a solution for SEO using an instance of the headless phantomJS webkit browser running in Apache on Ubuntu.  Bot requests are redirected to this nodeJS process, which in turn spawns a phantomJS instance that returns fully rendered html with dynamic content to the bot for indexing. "
+        },"ios": {
+          "id": "iOS"
+        , "label": "xamarin, c#, XCode, GLGeocoder, Google Geocoder"
+        , "title": "<a href='#0'>iOS App development</a>"
+        , "desc": "Using Xamarin Studio, extending the WeGoDo iOS social media app.  Work included designing and implementing places configuration workflow based on map searches and reverse geolocation, place search for capturing user profile data, and creating shared view models for interest matching, feed, and messaging workflows.  Also implemented image upload and thumbnail display inside feed posts and place configuration based on Twitter model and workflow."
+        }
+        ,"pointacross": {
+          "id": "cloudcomposer"
+        , "label": "MVC, flash, html5, ajax, microsoft azure, WCF, REST"
+        , "title": "<a href='#0'>MVC web-based audio messaging composer tool</a>"
+        , "desc": "PointAcross had a legacy Winforms application used to create narrated slideshows that were shared and served as flash video content hosted in html.  Company needed a cross-platform solution, so I architected and built a web composing tool based on MIT open-source WAMI speech recognition plug-in which streamed audio to a php server hosted on Windows Azure and stored image and video assets onto our cdn."
+        }
+        ,"pavideo": {
+          "id": "videoconverter"
+        , "label": "Winforms, ffMpeg, avisynth, C#, microsoft azure"
+        , "title": "<a href='#0'>ff-Mpeg flash to video converter</a>"
+        , "desc": "PointAcross needed a tool for combining message audio and image assets, plus a timing file into video content in a variety of formats and resolutions.  Created a native app that scripted ffMpeg with aviSynth to render usuable video for sharing via YouTube, Facebook, and Twitter."
         }
       }
     }
@@ -82,7 +106,7 @@
       "id": "skillbars"
     , "title": "Technical Skills"
     , "items": {
-        "ASP.NET/MVC": {"title": "ASP.NET/MVC", "level": "85"}
+        "ASP.NET/MVC": {"title": "ASP.NET/MVC", "level": "90"}
       , "neo4j": {"title": "neo4j", "level": "20"}
       , "express": {"title": "ExpressJS", "level": "60"}
       , "weedFS": {"title": "weedFS", "level": "20"}
@@ -90,13 +114,13 @@
       , "javascript": {"title": "javascript", "level": "90"}
       , "phantomjs": {"title": "phantomjs", "level": "80"}
       , "git": {"title": "Git", "level": "75"}
-      , "vim": {"title": "Vim", "level": "75"}
+      , "vim": {"title": "Vim", "level": "50"}
       , "dustjs": {"title": "dustjs", "level": "95"}
       , "grunt": {"title": "grunt", "level": "70"}
       , "css": {"title": "Css", "level": "75"}
-      , "bower": {"title": "bower", "level": "65"}
+      , "bower": {"title": "bower", "level": "55"}
       , "sass": {"title": "Sass", "level": "70"}
-      , "YUI-router": {"title": "YUI", "level": "85"}
+      , "YUI-router": {"title": "YUI-router", "level": "85"}
       , "SQLServer ": {"title": "SQLServer", "level": "65"}
       , "java": {"title": "Java", "level": "15"}
       , "ubuntu": {"title": "Ubuntu", "level": "50"}
@@ -108,19 +132,19 @@
       , "Visual Studio": {"title": "Visual Studio", "level": "95"}
       , "ASP.NET": {"title": "ASP.net", "level": "95"}
       , "php": {"title": "php", "level": "30"}
-      , "jQuery": {"title": "jQuery", "level": "80"}
+      , "jQuery": {"title": "jQuery", "level": "95"}
       , "WCF Services": {"title": "WCF Services", "level": "85"}
       , "IIS": {"title": "IIS", "level": "65"}
-      , "Microsoft Azure": {"title": "Microsoft Azure", "level": "65"}
+      , "Microsoft Azure": {"title": "Microsoft Azure", "level": "70"}
       , "C#/.Net": {"title": "C#/.Net", "level": "90"}
-      , "Html5": {"title": "Html5", "level": "75"}
+      , "Html5": {"title": "Html5", "level": "80"}
       , "DirectX Audio": {"title": "DirectX Audio", "level": "90"}
       , "ffMpeg": {"title": "ffMpeg", "level": "60"}
-      , "xamarin iOS": {"title": "xamarin iOS", "level": "95"}
+      , "xamarin iOS": {"title": "xamarin iOS", "level": "85"}
       , "xamarin Android": {"title": "xamarin Android", "level": "30"}
-      , "Telerik tools": {"title": "Telerik", "level": "90"}
+      , "Telerik tools": {"title": "Telerik Tools", "level": "90"}
       , "IntelliJ IDEA": {"title": "IntelliJ IDEA", "level": "20"}
-      , "Telerik AppBuilder": {"title": "Telerik AppBuilder", "level": "65"}
+      , "Telerik AppBuilder": {"title": "Icenium", "level": "70"}
       , "IntelliJ IDEA": {"title": "IntelliJ IDEA", "level": "65"}
       , "AppStore": {"title": "AppStore", "level": "75"}
       , "GooglePlay": {"title": "GooglePlay", "level": "75"}
@@ -132,6 +156,9 @@
       , "Studio One": {"title": "Studio One", "level": "90"}
       , "Cubasis": {"title": "Cubasis", "level": "90"}
       , "WebAPI2": {"title": "WebAPI2", "level": "95"}
+      , "Apache2": {"title": "Apache2", "level": "50"}
+      , "Varnish": {"title": "Varnish", "level": "60"}
+      , "Jade": {"title": "Jade", "level": "25"}
       }
     }
   , "skillbars-print": {
@@ -139,32 +166,24 @@
     , "title": "Technical Skills"
     , "items": {
         "skills": {
-          "desc": "<code>ASP.NET</code>, <code>nodeJS</code>, <code>ExpressJS</code>, <code>git</code>, <code>SASS</code>, <code>HTML5</code>, <code>dustjs</code>, <code>bower</code>, <code>Vim</code>, <code>Java</code>, <code>javascript</code>, <code>ubuntu</code>, <code>Mercurial</code>, <code>OSX</code>, <code>YUI</code>, <code>SQLServer</code>, <code>grunt</code>, <code>Windows</code>, <code>PayPal PNP</code>, <code>XCode</code>, <code>Visual Studio</code>, <code>ASP.net</code>, <code>php</code>, <code>jQuery</code>, <code>WCF Services</code>, <code>IIS</code>, <code>Microsoft Azure</code>, <code>C#/.Net</code>, <code>Html5</code>, <code>Direct X Audio</code>, <code>ffMpeg</code>, <code>xamarin iOS</code>, <code>xamarin Android</code>, <code>Telerik tools</code>, <code>IntelliJ IDEA</code>, <code>Telerik AppBuilder</code>, <code>IntelliJ IDEA</code>, <code>AppStore</code>, <code>GooglePlay</code>, <code>iOS Geocoder</code>, <code>Google Webmaster</code>, <code>Subversion</code>, <code>TFS</code>, <code>WordPress</code>, <code>Cubasis</code>, <code>Studio One</code>, <code>WebAPI2</code>"
+          "desc": "<code>ASP.NET</code>, <code>nodeJS</code>, <code>ExpressJS</code>, <code>git</code>, <code>SASS</code>, <code>HTML5</code>, <code>dustjs</code>, <code>bower</code>, <code>Vim</code>, <code>Java</code>, <code>javascript</code>, <code>ubuntu</code>, <code>Mercurial</code>, <code>OSX</code>, <code>YUI</code>, <code>SQLServer</code>, <code>grunt</code>, <code>Windows</code>, <code>PayPal PNP</code>, <code>XCode</code>, <code>Visual Studio</code>, <code>ASP.net</code>, <code>php</code>, <code>jQuery</code>, <code>WCF Services</code>, <code>IIS</code>, <code>Microsoft Azure</code>, <code>C#/.Net</code>, <code>Html5</code>, <code>Direct X Audio</code>, <code>ffMpeg</code>, <code>xamarin iOS</code>, <code>xamarin Android</code>, <code>Telerik tools</code>, <code>IntelliJ IDEA</code>, <code>Telerik AppBuilder</code>, <code>IntelliJ IDEA</code>, <code>AppStore</code>, <code>GooglePlay</code>, <code>iOS Geocoder</code>, <code>Google Webmaster</code>, <code>Subversion</code>, <code>TFS</code>, <code>WordPress</code>, <code>Cubasis</code>, <code>Studio One</code>, <code>WebAPI2</code>, <code>Apache2</code>, <code>Varnish</code>, <code>Jade</code>"
         }
       }
     }
   , "activities": {
       "title": "Activities"
     , "items": {
-        "piano": {
+        "band": {
           "title": "Music"
-        , "date": "1995&#8211;2015"
-        , "desc": "<ul> <li>Performer with local bands</li> <li>Songwriting</li> <li>Session recording artist</li></ul>"
+        , "desc": "<ul> <li>Keyboard player and songwriter/performer with local bands; session recording artist.</li> </ul>"
         }
-      , "production": {
-          "title": "Music recording and production"
-        , "date": "2007&#8211;2015"
-        , "subtitle": "Engineer and producer"
-        , "desc": "&#8220;Free-lance &#38; <abbr title='Guidedog productions'>GDP</abbr>'s Finish description."
+        ,"production": {
+          "title": "<a href='https://soundcloud.com/guidedog' target='_blank'>Music recording and production.</a>"
+        , "desc": "<ul> <li>Currently producing and recording several projects in my home studio.</li><li><iframe width='100%' height='20' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193977442&amp;color=ff9900&amp;inverse=false&amp;auto_play=false&amp;show_user=true'></iframe></li> </ul>"
         }
-      , "biking": {
-          "title": "Road and Mountain Biking"
-        }
-      , "skiing": {
-          "title": "Downhill Skiing"
-        }
-      , "photography": {
-          "title": "Photography"
+        ,"other": {
+          "title": "Other Interests and Activities"
+        , "desc": "<ul><li>Flash photography in the <a href='http://www.strobist.blogspot.com' target='_blank'>Strobist style</a>; Image processing with Adobe Lightroom and Photoshop; road and mountain biking; skiing; hiking and backpacking; travel; cooking; espresso machines; maintaining and repairing (and playing) Hammond Organs and Leslie speakers.</li></ul>"
         }
       }
     }
