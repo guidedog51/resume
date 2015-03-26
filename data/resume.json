@@ -97,7 +97,7 @@
         }
         ,"pavideo": {
           "id": "videoconverter"
-        , "label": "C#, Winforms, ffmpeg, avisynth, microsoft azure"
+        , "label": "C#, Winforms, ffmpeg, avisynth, microsoft azure, AAC"
         , "title": "<a href='#0'>ffmpeg flash to video converter</a>"
         , "desc": "PointAcross needed a tool for combining message audio and image assets, plus a timing file into video content in a variety of formats and resolutions.  Created a native app that scripted ffMpeg with aviSynth to render video for sharing via YouTube, Facebook, and Twitter."
         }
