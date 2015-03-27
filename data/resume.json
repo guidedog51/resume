@@ -80,7 +80,7 @@
         ,"ios": {
           "id": "iOS"
         , "label": "xamarin, C#, XCode, GLGeocoder, Google Geocoder"
-        , "title": "<a href='https://itunes.apple.com/us/app/wegodo-godo-what-you-love/id950304187?mt=8'>iOS App development</a>"
+        , "title": "<a href='https://itunes.apple.com/us/app/wegodo-godo-what-you-love/id950304187?mt=8' target='_blank'>iOS App development</a>"
         , "desc": "Using Xamarin Studio, extending the WeGoDo iOS social media app.  Work included designing and implementing places configuration workflow based on map searches and reverse geolocation, place search for capturing user profile data, plus creating shared view models for interest matching, feed, and messaging workflows.  Also implemented image upload and thumbnail display inside feed posts and place configuration based on Twitter model and workflow."
         }
         ,"wgdseo": {
