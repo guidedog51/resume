@@ -11,7 +11,15 @@
       "id": "experience"
     , "title": "Professional Experience"
     , "items": {
-        "wegodo.com": {
+        "woodshedradio.org": {
+          "id": "woodshedradio.org"
+        , "title": "<a href='http://woodshedradio.org' target= '_blank'>Woodshed Radio</a>"
+        , "place": "Bay Area, CA"
+        , "subtitle": "Senior Developer"
+        , "date": "June 2015–September 2015"
+        , "desc": "<ul><li>Built Woodshed Foundation web radio station.</li> <li>Combined open-source artist, performance and content api data for curated audio streaming.</li><li>Designed and implemented radio curating tools using node, express, and mongodb.</li></ul>"
+      }
+      , "wegodo.com": {
           "id": "wegodo.com"
         , "title": "<a href='http://wegodo.cloudapp.NET' target= '_blank'>WeGoDo</a>"
         , "place": "London, UK &<BR/>San Francisco, CA"
@@ -71,7 +79,13 @@
       "id": "projects"
     , "title": "Projects"
     , "items": {
-        "wgdwebapp": {
+      "wrapp": {
+        "id": "radio"
+      , "label": "nodejs, express, jade, html5, jquery, bootstrap, ajax, ubuntu, apache, microsoft azure"
+      , "title": "<a href='http://woodshedradio.org' target='_blank'>Woodshed Curated Internet Radio stream</a>"
+      , "desc": "Created internet radio station for artists appearing locally in the bay area, implementing <a href='http://soundkick.com'>Soundkick</a>, <a href='http://rdio.com'>Rdio</a>, and <a href='http://echonest.com'>The Echo Nest</a> open-source APIs.  Work included designing and implementing curating tools, server configuration, html5 and flash audio player, and mongodb metadata CRUD support."
+      }
+      ,"wgdwebapp": {
           "id": "webapp"
         , "label": "dustjs, express, html5, jquery, ajax, nodejs, C#, WebAPI2, ubuntu, apache, microsoft azure"
         , "title": "<a href='http://wegodo.cloudapp.NET' target='_blank'>Single Page Web Application</a>"
@@ -95,62 +109,47 @@
         , "title": "<a href='#0'>MVC web-based audio messaging composer tool</a>"
         , "desc": "PointAcross had a legacy Winforms application used to create narrated slideshows that were shared and served as flash video content hosted in html.  Company needed a cross-platform solution, so I architected and built a web composing tool based on MIT open-source WAMI speech recognition plug-in which streamed audio to a php server hosted on Windows Azure and stored image and video assets onto our cdn."
         }
-        ,"pavideo": {
-          "id": "videoconverter"
-        , "label": "C#, Winforms, ffmpeg, avisynth, AAC, microsoft azure"
-        , "title": "<a href='#0'>ffmpeg flash to video converter</a>"
-        , "desc": "PointAcross needed a tool for combining message audio and image assets, plus a timing file into video content in a variety of formats and resolutions.  Created a native app that scripted ffMpeg with aviSynth to render video for sharing via YouTube, Facebook, and Twitter."
-        }
       }
     }
   , "skillbars": {
       "id": "skillbars"
     , "title": "Technical Skills"
     , "items": {
-        "ASP.NET/MVC": {"title": "ASP.NET/MVC", "level": "90"}
-      , "neo4j": {"title": "neo4j", "level": "20"}
+        "ASP.NET/MVC": {"title": "ASP.NET/MVC", "level": "80"}
+      , "mongodb": {"title": "mongodb", "level": "40"}
       , "express": {"title": "expressjs", "level": "60"}
       , "weedFS": {"title": "weedFS", "level": "20"}
       , "nodeJS": {"title": "nodejs", "level": "75"}
-      , "javascript": {"title": "javascript", "level": "90"}
+      , "javascript": {"title": "javascript", "level": "80"}
       , "phantomjs": {"title": "phantomjs", "level": "80"}
-      , "git": {"title": "Git", "level": "75"}
-      , "vim": {"title": "Vim", "level": "50"}
+      , "git": {"title": "Git", "level": "65"}
       , "dustjs": {"title": "dustjs", "level": "95"}
+      , "jade": {"title": "jade", "level": "60"}
       , "grunt": {"title": "grunt", "level": "70"}
       , "css": {"title": "css", "level": "75"}
-      , "bower": {"title": "bower", "level": "55"}
       , "sass": {"title": "SASS", "level": "70"}
       , "YUI-router": {"title": "YUI-router", "level": "85"}
       , "SQLServer ": {"title": "SQLServer", "level": "65"}
-      , "java": {"title": "Java", "level": "15"}
       , "ubuntu": {"title": "Ubuntu", "level": "50"}
-      , "mercurial": {"title": "Mercurial", "level": "65"}
-      , "OSX": {"title": "OSX", "level": "75"}
-      , "windows": {"title": "Windows", "level": "95"}
       , "paypal PNP": {"title": "PayPal PNP", "level": "80"}
-      , "XCode": {"title": "xCode", "level": "40"}
       , "Visual Studio": {"title": "Visual Studio", "level": "95"}
       , "ASP.NET": {"title": "ASP.NET", "level": "95"}
       , "php": {"title": "php", "level": "30"}
-      , "jQuery": {"title": "jQuery", "level": "95"}
+      , "jQuery": {"title": "jQuery", "level": "85"}
       , "WCF Services": {"title": "WCF Services", "level": "85"}
       , "IIS": {"title": "IIS", "level": "65"}
       , "Microsoft Azure": {"title": "Microsoft Azure", "level": "70"}
       , "C#/.NET": {"title": "C#/.NET", "level": "90"}
       , "Html5": {"title": "html5", "level": "80"}
-      , "DirectX Audio": {"title": "DirectX Audio", "level": "90"}
-      , "ffMpeg": {"title": "ffmpeg", "level": "60"}
       , "xamarin iOS": {"title": "xamarin iOS", "level": "85"}
       , "xamarin Android": {"title": "xamarin Android", "level": "30"}
       , "Telerik tools": {"title": "Telerik Tools", "level": "90"}
-      , "IntelliJ IDEA": {"title": "IntelliJ IDEA", "level": "20"}
       , "Telerik AppBuilder": {"title": "Icenium", "level": "70"}
-      , "AppStore": {"title": "AppStore", "level": "75"}
-      , "GooglePlay": {"title": "GooglePlay", "level": "75"}
+      , "AppStore": {"title": "AppStore", "level": "50"}
+      , "GooglePlay": {"title": "GooglePlay", "level": "50"}
       , "iOS Geocoder": {"title": "iOS Geocoder", "level": "90"}
       , "Google Webmaster": {"title": "Google Webmaster", "level": "90"}
-      , "Subversion": {"title": "Subversion", "level": "90"}
+      , "Subversion": {"title": "Subversion", "level": "80"}
       , "TFS": {"title": "TFS", "level": "95"}
       , "WordPress": {"title": "WordPress", "level": "35"}
       , "Studio One": {"title": "Studio One", "level": "90"}
@@ -158,7 +157,6 @@
       , "WebAPI2": {"title": "WebAPI2", "level": "95"}
       , "Apache2": {"title": "Apache2", "level": "50"}
       , "Varnish": {"title": "Varnish", "level": "60"}
-      , "Jade": {"title": "Jade", "level": "25"}
       }
     }
   , "skillbars-print": {
@@ -166,7 +164,7 @@
     , "title": "Technical Skills"
     , "items": {
         "skills": {
-          "desc": "<code>ASP.NET</code>, <code>nodejs</code>, <code>expressjs</code>, <code>git</code>, <code>SASS</code>, <code>HTML5</code>, <code>dustjs</code>, <code>bower</code>, <code>Vim</code>, <code>Java</code>, <code>javascript</code>, <code>ubuntu</code>, <code>Mercurial</code>, <code>OSX</code>, <code>YUI-router</code>, <code>SQLServer</code>, <code>grunt</code>, <code>Windows</code>, <code>PayPal PNP</code>, <code>xCode</code>, <code>Visual Studio</code>, <code>ASP.NET</code>, <code>php</code>, <code>jQuery</code>, <code>WCF Services</code>, <code>IIS</code>, <code>Microsoft Azure</code>, <code>C#/.NET</code>, <code>Direct X Audio</code>, <code>ffmpeg</code>, , <code>avisynth</code>, <code>xamarin iOS</code>, <code>xamarin Android</code>, <code>Telerik tools</code>, <code>IntelliJ IDEA</code>, <code>Telerik AppBuilder</code>, <code>AppStore</code>, <code>GooglePlay</code>, <code>iOS Geocoder</code>, <code>Google Webmaster</code>, <code>Subversion</code>, <code>TFS</code>, <code>WordPress</code>, <code>Cubasis</code>, <code>Studio One</code>, <code>WebAPI2</code>, <code>Apache2</code>, <code>Varnish</code>, <code>Jade</code>"
+          "desc": "<code>ASP.NET</code>, <code>nodejs</code>, <code>expressjs</code>, <code>git</code>, <code>SASS</code>, <code>HTML5</code>, <code>dustjs</code>, <code>javascript</code>, <code>ubuntu</code>, <code>YUI-router</code>, <code>SQLServer</code>, <code>grunt</code>, <code>PayPal PNP</code>, <code>Visual Studio</code>, <code>ASP.NET</code>, <code>php</code>, <code>jQuery</code>, <code>WCF Services</code>, <code>IIS</code>, <code>Microsoft Azure</code>, <code>C#/.NET</code>, <code>xamarin iOS</code>, <code>xamarin Android</code>, <code>Telerik tools</code>, <code>Telerik AppBuilder</code>, <code>AppStore</code>, <code>GooglePlay</code>, <code>iOS Geocoder</code>, <code>Google Webmaster</code>, <code>Subversion</code>, <code>TFS</code>, <code>WebAPI2</code>, <code>Apache2</code>, <code>Varnish</code>, <code>Jade</code>"
         }
       }
     }
